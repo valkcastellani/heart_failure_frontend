@@ -1,15 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import { store } from './App/store'
+import { Provider } from 'react-redux';
+import App from './App/App';
 import reportWebVitals from './reportWebVitals';
+import { PrimeReactProvider } from 'primereact/api';
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import './index.css';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <App />
+    <React.StrictMode>
+      <PrimeReactProvider>
+        <Provider store={store}>
+          <App />
+        </Provider>
+      </PrimeReactProvider>
+    </React.StrictMode>
   </React.StrictMode>
 );
 
