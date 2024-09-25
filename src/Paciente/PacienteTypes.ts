@@ -31,6 +31,7 @@ export interface PacienteState {
     angina: number
     depressao: number
     inclinacao: number
+    doenca: number
     data_insercao: string
 }
 
@@ -62,7 +63,7 @@ export const glicemiaOptions: IDropdown[] = [
 
 export const eletroOptions: IDropdown[] = [
     { label: 'Normal: Normal', value: "0" },
-    { label: 'ST: anomalia da onda ST-T (inversões da onda T e/ou elevação ou depressão do ST > 0.05 mV)', value: "1" },
+    { label: 'ST: nomalia da onda ST-T (inversões da onda T e/ou elevação ou depressão do ST > 0.05 mV)', value: "1" },
     { label: 'LVH: mostrando possível ou definida hipertrofia ventricular esquerda pelos critérios de Estes', value: "2" }
 ];
 
