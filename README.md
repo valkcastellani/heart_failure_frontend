@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido com o objetivo de oferecer uma solução para classificar a probabilidade de um paciente desenvolver uma doença cardíaca, com base em informações obtidas através de exames realizados. O desenvolvimento faz parte do currículo da Pós-Graduação em Engenharia de Software da PUC-Rio, iniciado no módulo de Qualidade de Software, Segurança e Sistemas Inteligentes.
 
-Este repositório contém o Frontend do MVP Heart Failures.
+Este repositório contém o Frontend do MVP Heart Failures. Para você utilizar este Frontend é necessário instanciar a API do MVP Heart Failures que se encontra no repositório https://github.com/valkcastellani/heart_failure_api (https://github.com/valkcastellani/heart_failure_api).
 
 ---
 
