@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  production:
+    container_name: heart_failures_frontend_react_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
